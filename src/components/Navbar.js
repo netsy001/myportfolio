@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Nav} from 'react-bootstrap';
 
 function Navbar() {
     const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
