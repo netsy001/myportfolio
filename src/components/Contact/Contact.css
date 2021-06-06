@@ -1,8 +1,16 @@
 .contact {
-    width: 250px;
-    height:250px
+    width: 225px;
+    height:225px
 }
 
 .contactPage {
     background-color:lightgreen;
+}
+
+.contacts {
+    text-emphasis: none;
+    text-align: left;
+    font-size: large;
+    font-family:sans-serif;
+    font-weight: bolder;
 }

@@ -13,6 +13,7 @@ const Portfolio = () => {
             </Row>
             <Row>
                 <Col sm={4}>
+                    <h4 className="recentProjects">Trailor-Sailor</h4>
                     <a href="https://benjaminlee-boop.github.io/Trailer-Sailor/" target="_blank"> <Image className="portfolioImage" src={Movie}></Image></a>
                 </Col>
                 <Col sm={4}></Col>
@@ -21,6 +22,7 @@ const Portfolio = () => {
             <Row>
                 <Col sm={4}></Col>
                 <Col sm={4}>
+                <h4 className="recentProjects">The WorkDay Scheduler</h4>
                     <a href="https://netsy001.github.io/Theworkdayscheduler/" target="_blank"><Image className="portfolioImage" src={Day}></Image></a>
                 </Col>
                 <Col sm={4}></Col>
@@ -29,6 +31,7 @@ const Portfolio = () => {
                 <Col sm={4}></Col>
                 <Col sm={4}></Col>
                     <Col sm={4}>
+                    <h4 className="recentProjects">Weather-Dashboard</h4>
                         <a href="https://netsy001.github.io/Weather-Dashboard/" target="_blank"><Image className="portfolioImage" src={Weather}></Image></a>
                     </Col>
                 </Row>

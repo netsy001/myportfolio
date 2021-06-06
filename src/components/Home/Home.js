@@ -27,7 +27,7 @@ const Home = () => {
                         and training in programming. Motivated to learn, grow and
                         excel in the industry.
             <br></br>
-                        <p class="Resume">For more information, please check out my <a href={Resume}>Resume</a></p>
+                        <p class="Resume">For more information, please check out my <a href={Resume} target="_blank">Resume</a></p>
                     
                 </Col>
             </Row>

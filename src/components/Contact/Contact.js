@@ -9,7 +9,8 @@ import './Contact.css';
 const Contact = () => {
     return (
         <Container classNmae ="contactPage">
-            <h2 class="recentProjects">Contact Me.....!</h2>
+            <br></br>
+            <h2 class="contacts">Contact Me.....!</h2>
             <Row>
                 <Col  sm={3}></Col>
                 <Col  sm={3}>
