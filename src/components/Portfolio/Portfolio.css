@@ -1,0 +1,11 @@
+.recentProjects {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+}
+
+.portfolioImage {
+    width: 250px;
+    height:250px
+}

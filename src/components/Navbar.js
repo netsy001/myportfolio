@@ -1,26 +1,35 @@
 import React from 'react'
 import {Nav} from 'react-bootstrap';
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-    const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+    const location = useLocation();
 
     return (
-        <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
-            <Nav.Item>
-                <Nav.Link eventKey="1" href="#/home"> Home </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="2" title="Item"> About </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="3" > Portfolio </Nav.Link>
-            </Nav.Item>
-            
-            <Nav.Item>
-                <Nav.Link eventKey="3" > Contact  </Nav.Link>
-            </Nav.Item>
-        </Nav>
-    );
+        <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+          Home
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/portfolio"
+          className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+        >
+          Portfolio
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/contact"
+          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+        >
+          Contact
+        </Link>
+      </li>
+    </ul>
+  );
 }
 
 
