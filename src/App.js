@@ -1,27 +1,30 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import Home from '../src/components/Home/Home';
-import Portfolio from '../src/components/Portfolio/Portfolio';
-import Contact from '../src/components/Contact/Contact';
-import { Container } from 'react-bootstrap';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
 
+import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import React, { useState, useEffect } from 'react';
 
 function App() {
+  let [resumeData, setResumeData] = useState({});
+
+  useEffect(()=>{
+    fetch("/resumeData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setResumeData(data);
+      });
+  },[]);
+
   return (
     <div className="App">
-      <BrowserRouter>
-        <Container fluid>
-          <Navbar />
-          <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/portfolio" exact component={Portfolio} />
-          <Route path="/contact" exact component={Contact} />
-        </Switch>
-        </Container>
-      </BrowserRouter>
-
+     <Header data={resumeData.main} />
+      <About data={resumeData.main} />
+      <Portfolio data={resumeData.portfolio} />
+      <Contact data={resumeData.main} />
+      <Footer data={resumeData.main} />
     </div>
   );
 }
