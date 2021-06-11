@@ -1,0 +1,89 @@
+{
+  "main": {
+    "name": "Surendra C Nettam",
+    "roll": "Software Development",
+    "image": "Photo.JPG",
+    "aboutme": "Surendra is a highly passionate and inventive IT professional. Possessing a keen understanding of the ICT industry with specialization in the field of computing. Approaches work with passion, Integrity and transparency, never promising what cannot be delivered. People recognize Suri as an achiever and/or expert.Suri influence people through high expectations of himself and others and constantly envision ways to improve and upgrade. Suri has a passion for growing great client relationships and a will to always go above and beyond to achieveresults. Suri quickly solve problems with fresh solutions. Suri experience has ranged across technologies such as HTML5, CSS3, MVC JavaScript, jQuery, NodeJS, Bootstrap, MY SQL, MongoDB and more.",
+    "address": "South Australia, Adelaide",
+    "place": "Adelaide",
+    "contactmessage": "Get in touch with me.!",
+    "email": "nettem.surendra@gmail.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/surendranettam/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/netsy001",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "University of Adelaide",
+        "degree": "Fullstack Web development",
+        "graduated": "May 2021",
+        "description": "Graduated"
+      },
+      {
+        "school": "University of South Australia",
+        "degree": "Masters in Engineering Management",
+        "graduated": "2017",
+        "description": "Graduated"
+      }
+    ],
+    "work": [
+      {
+        "company": "Telstra",
+        "title": "Tele Communications",
+        "years": "November 2018 - Present",
+        "description": "Customer Service."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Node JS"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "TrailorSailor",
+        "image": "popcorn.jpg",
+        "url": "https://netsy001.github.io/Theworkdayscheduler/"
+      },
+      {
+        "title": "The workday Scheduler",
+        "image": "day planner.png",
+        "url": "https://netsy001.github.io/Theworkdayscheduler/"
+      },
+      {
+        "title": "Weather-Dashboard",
+        "image": "weatherapp.jpg",
+        "url": "https://netsy001.github.io/Weather-Dashboard/"
+      }
+    ]
+  }
+}
