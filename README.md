@@ -21,8 +21,8 @@ https://github.com/netsy001/myportfolio
 
 
 ## Screenshots - Demo
-<kbd>![screenshot-demo1](/assets/img.png)</kbd> <kbd>![screenshot-demo1](/assets/img1.png)</kbd> <kbd>![screenshot-demo1](/assets/img2.png)</kbd>
-<kbd>![screenshot-demo1](/assets/img3.png)</kbd><kbd>![screenshot-demo1](/assets/img4.png)</kbd>
+<kbd>![screenshot-demo1](./images/img.png)</kbd> <kbd>![screenshot-demo1](images/img1.png)</kbd> <kbd>![screenshot-demo1](images/img2.png)</kbd>
+<kbd>![screenshot-demo1](images/img3.png)</kbd><kbd>![screenshot-demo1](images/img4.gif)</kbd>
 ## Project Objective
 
 
