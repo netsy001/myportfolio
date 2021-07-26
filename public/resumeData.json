@@ -70,6 +70,11 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Amazon-challenge",
+        "image": "Build-Amazon.png",
+        "url": "https://myshop-d68d9.web.app/"
+      },
+      {
         "title": "TrailorSailor",
         "image": "popcorn.jpg",
         "url": "https://benjaminlee-boop.github.io/Trailer-Sailor/"
